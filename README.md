@@ -1,17 +1,13 @@
-# ⚠️ This is an auto-generated repository
+# wails-kit-pub
 
-**Do not open issues or PRs here.** All development happens in the source repo:
+Auto-generated split Go modules for [wails-kit](https://github.com/jrschumacher/wails-kit).
 
-### 👉 [github.com/jrschumacher/wails-kit](https://github.com/jrschumacher/wails-kit)
+**Do not edit this repo directly.** All development happens in the monorepo.
 
----
-
-This repo contains per-package Go modules published automatically on each release of [wails-kit](https://github.com/jrschumacher/wails-kit). Each subdirectory is an independent Go module importable via vanity URL:
+Each subdirectory is an independent Go module importable via vanity URL:
 
 ```go
 import "abnl.dev/wails-kit/appdirs"
 import "abnl.dev/wails-kit/settings"
 import "abnl.dev/wails-kit/database"
 ```
-
-See the [wails-kit README](https://github.com/jrschumacher/wails-kit#readme) for documentation.
